@@ -34,7 +34,7 @@ else
   elsif os == "ubuntu" && os_version == "22.04" && !arm
     filename = "or-tools_amd64_ubuntu-22.04_cpp_v#{version}.tar.gz"
     checksum = "ffa50a970557e4527dcb3e77d45467a15770b6e93ed3cf61c4b602a2566ce6cb"
-  elsif os == "debian" && os_version == "11" && !arm
+  elsif os == "debian"
     filename = "or-tools_amd64_debian-11_cpp_v#{version}.tar.gz"
     checksum = "48e1f1f2ce1bc55d2e8b0b5ba0556eef2d0724655ad06aedc13c5dd9d7daab9f"
   elsif os == "centos" && os_version == "7" && !arm
